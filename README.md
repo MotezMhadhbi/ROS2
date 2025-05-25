@@ -9,7 +9,7 @@ Raspberry Pi: Runs ROS2 nodes for serial communication, sensor integration, robo
 LIDAR: Provides 2D laser scans for mapping and navigation. Default setup uses YDLIDAR, but you can use any ROS2-compatible LIDAR (see below).
 Ubuntu VM: Used for running ROS2 visualization tools (RViz), navigation stack, and SLAM algorithms.
 Directory Structure
-# Serbot Basic/
+# Dogbot Basic/
 ├── For_Arduino/         # Arduino code for motor drivers and encoders
 ├── For_Raspberrypi/    # ROS2 nodes for serial, LIDAR, URDF (serbot_description), and robot control
 ├── For_Vm/             # ROS2 navigation, SLAM, and visualization packages
